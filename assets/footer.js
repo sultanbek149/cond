@@ -1,3 +1,6 @@
+import logowhite from '../assets/logowhite.jpg'
+
+
 class Footer extends HTMLElement {
     constructor() {
         super();
@@ -9,7 +12,7 @@ class Footer extends HTMLElement {
                         <div class="footer-left">
                             <div class="footer-logotype">
                                 <a href="/">
-                                    <img src="assets/logowhite.jpg" alt="logowhite">
+                                    <img src=${logowhite} alt="logowhite">
                                 </a>
                             </div>
                             <p class="copyright">© 2023 - 2024. Все права защищены</p>
@@ -41,8 +44,8 @@ class Footer extends HTMLElement {
                                     <li class="menu-616 ${this.getAttribute('conditioner')}">
                                         <a href="conditioner.html">КОНДИЦИОНЕРЫ</a>
                                     </li>
-                                    <li class="menu-617 ${this.getAttribute('industrial_vent')}">
-                                        <a href="industrial_vent.html">ПРОМЫШЛЕННЫЕ КОНДИЦИОНЕРЫ</a>
+                                    <li class="menu-617 ${this.getAttribute('cond_industrial')}">
+                                        <a href="cond_industrial.html">ПРОМЫШЛЕННЫЕ КОНДИЦИОНЕРЫ</a>
                                     </li>
                                     <li class="menu-618 ${this.getAttribute('radiator')}">
                                         <a href="radiator.html">ВОЗДУШНОЕ ОТОПЛЕНИЕ
@@ -55,9 +58,15 @@ class Footer extends HTMLElement {
                                         <a href="coolers.html">УВЛАЖНИТЕЛИ ВОЗДУХА</a>
                                     </li>
                                     <li class="menu-621 last ${this.getAttribute('cold_panels')}">
-                                        <a href="cold_panels.html">ХОЛОДНЫЕ ПАНЕЛИ И АВТОМАТИЗАЦИЯ УПРАВЛЕНИЯ
+                                        <a href="cold_panels.html">ХОЛОДНЫЕ ПАНЕЛИ</a>
+                                    </li>
+                                    <li class="menu-621 last ${this.getAttribute('vent_units')}">
+                                        <a href="vent_units.html">ПРИТОЧНО-ВЫТЯЖНЫЕ ВЕНТИЛЯЦИОННЫЕ УСТАНОВКИ</a>
+                                    </li>
+                                    <li class="menu-621 last ${this.getAttribute('automation')}">
+                                        <a href="automation.html">АВТОМАТИЗАЦИЯ УПРАВЛЕНИЯ
                                             ИНЖЕНЕРНЫМИ
-                                            СИСТЕМАМИПАНЕЛИ</a>
+                                            СИСТЕМАМИ ПАНЕЛИ</a>
                                     </li>
                                 </ul>
                             </div>

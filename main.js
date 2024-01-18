@@ -1,14 +1,13 @@
 import './assets/header'
 import './assets/footer'
-import './style.css'
+import './assets/sidebar'
 import './assets/hamburger'
+import './style.css'
 
-// import Swiper bundle with all modules installed
 import Swiper from 'swiper/bundle';
 
 // import styles bundle
 import 'swiper/css/bundle';
-
 
 const swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
