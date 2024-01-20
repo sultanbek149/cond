@@ -127,12 +127,20 @@ class Header extends HTMLElement {
                                     <a class="${this.getAttribute('cold_panels')} last" href="/cold_panels.html">ХОЛОДНЫЕ ПАНЕЛИ</a>
                                     <a class="${this.getAttribute('vent_units')} last" href="vent_units.html">ПРИТОЧНО-ВЫТЯЖНЫЕ ВЕНТИЛЯЦИОННЫЕ УСТАНОВКИ</a>
                                     <a class="${this.getAttribute('automation')} last" href="/cold_panels.html">АВТОМАТИЗАЦИЯ УПРАВЛЕНИЯ ИНЖЕНЕРНЫМИ СИСТЕМАМИ</a>
-
-                                    
                                 </div>
                             </div>
-                            <div class="relative mb-3">
+                            <div class="relative">
                                 <a href="contacts.html" class="mx-4 ${this.getAttribute('contacts')}">Контакты</a>
+                            </div>
+                            <div class="relative mb-3">
+                                <div class="contacts items-center mx-4">
+                                    <a href="tel:+77007798641" class="phone block">
+                                        +7 (700) 779-86-41
+                                    </a>
+                                    <a class="btn btn-pulse" href="${this.getAttribute('main') === 'active' ? '#form' : 'index.html#form'}">
+                                        ОТПРАВИТЬ ЗАПРОС
+                                    </a>
+                                </div>
                             </div>
                         </nav>
                     </div>

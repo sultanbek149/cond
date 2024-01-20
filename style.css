@@ -113,6 +113,11 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 60px;
 }
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 0px;
+  }
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -1908,7 +1913,7 @@ ul.primary li a:hover {
   width: 44%;
 }
 .section.front-categories {
-  padding-top: 110px;
+  padding-top: 50px;
 }
 .section.home-about .link {
   margin-top: 43px;
@@ -3067,7 +3072,7 @@ p.c2 {
   }
   .front-page .section-title,
   .related-products .section-title {
-    padding-bottom: 40px;
+    padding-bottom: 5px;
   }
 
   .page-contacts .about-box {
@@ -3210,6 +3215,10 @@ p.c2 {
 
   .nav-mobile a {
     display: block;
+  }
+
+  .nav-mobile .btn-pulse {
+    width: fit-content;
   }
 
   .nav-mobile a.active,
@@ -3610,7 +3619,7 @@ p.c2 {
 
   .front-request .container {
     max-width: 768px;
-    width: 90%;
+    width: 100%;
   }
 
   .front-request .title {
@@ -3688,23 +3697,23 @@ p.c2 {
   .front-page .section-title,
   .front-representations .section-title {
     font-size: 24px;
-    line-height: 26px;
-    text-align: center;
+    line-height: 30px;
+    /* text-align: center; */
     max-width: 330px;
-    margin: auto;
+    /* margin: auto; */
   }
   .section-sub-title {
     font-size: 16px;
     line-height: 20px;
-    padding-bottom: 30px;
-    text-align: center;
+    padding-bottom: 20px;
+    /* text-align: center; */
   }
   .front-representations .representations-boxes p {
     font-size: 12px;
   }
   .section.home-about {
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
   .page-about-us .section-page {
     padding-top: 123px;
@@ -3987,7 +3996,7 @@ p.c2 {
   }
 
   .front-page .section {
-    margin: 100px 0;
+    margin: 50px 0;
   }
 
   .phone {
@@ -4106,7 +4115,24 @@ p.c2 {
   margin-inline: auto;
 }
 .front-request {
-  background-image: url("https://mycond.ua/sites/default/files/request-background.jpg");
+  background-image: url("https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  max-height: 800px;
+  position: relative;
+}
+
+.front-request:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background-image: linear-gradient(120deg, #222308, #222308);
+  opacity: 0.45;
+}
+
+.front-request .container {
+  z-index: 10;
 }
 
 .mainpage .bg-6 {
@@ -4238,7 +4264,7 @@ p.c2 {
   color: #000;
 }
 
-.nav-mobile a {
+.nav-mobile a:not(.btn-pulse) {
   --tw-text-opacity: 1;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -4892,7 +4918,7 @@ div[data-subcollapse] {
 }
 
 .tabs-desc_table tr:nth-child(even) {
-    background-color: #f6fafc;
+  background-color: #f6fafc;
 }
 
 .tabs-desc_table td {
