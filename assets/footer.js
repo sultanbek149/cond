@@ -25,13 +25,13 @@ class Footer extends HTMLElement {
                                         <a href="/">Главная</a>
                                     </li>
                                     <li class="menu-911 ${this.getAttribute('about')}">
-                                        <a href="about.html">О нас</a>
+                                        <a href="/about.html">О нас</a>
                                     </li>
                                     <li class="menu-912 ${this.getAttribute('catalog')}">
-                                        <a href="catalog.html" class="open-catalog">Каталог</a>
+                                        <a href="/catalog.html" class="open-catalog">Каталог</a>
                                     </li>
                                     <li class="menu-916 last ${this.getAttribute('contacts')}">
-                                        <a href="contacts.html">Контакты</a>
+                                        <a href="/contacts.html">Контакты</a>
                                     </li>
                                 </ul>
                             </div>
@@ -39,32 +39,32 @@ class Footer extends HTMLElement {
                                 <div class="label extra-bold">Каталог</div>
                                 <ul class="links">
                                     <li class="menu-615 first ${this.getAttribute('vent')}">
-                                        <a href="vent.html">ВЕНТИЛЯЦИЯ</a>
+                                        <a href="/vent.html">ВЕНТИЛЯЦИЯ</a>
                                     </li>
                                     <li class="menu-616 ${this.getAttribute('conditioner')}">
-                                        <a href="conditioner.html">КОНДИЦИОНЕРЫ</a>
+                                        <a href="/conditioner.html">КОНДИЦИОНЕРЫ</a>
                                     </li>
                                     <li class="menu-617 ${this.getAttribute('cond_industrial')}">
-                                        <a href="cond_industrial.html">ПРОМЫШЛЕННЫЕ КОНДИЦИОНЕРЫ</a>
+                                        <a href="/cond_industrial.html">ПРОМЫШЛЕННЫЕ КОНДИЦИОНЕРЫ</a>
                                     </li>
                                     <li class="menu-618 ${this.getAttribute('radiator')}">
-                                        <a href="radiator.html">ВОЗДУШНОЕ ОТОПЛЕНИЕ
+                                        <a href="/radiator.html">ВОЗДУШНОЕ ОТОПЛЕНИЕ
                                         </a>
                                     </li>
                                     <li class="menu-619 ${this.getAttribute('thermal_pump')}">
-                                        <a href="thermal_pump.html">ТЕПЛОВЫЕ НАСОСЫ</a>
+                                        <a href="/thermal_pump.html">ТЕПЛОВЫЕ НАСОСЫ</a>
                                     </li>
                                     <li class="menu-620 ${this.getAttribute('coolers')}">
-                                        <a href="coolers.html">УВЛАЖНИТЕЛИ ВОЗДУХА</a>
+                                        <a href="/coolers.html">УВЛАЖНИТЕЛИ ВОЗДУХА</a>
                                     </li>
                                     <li class="menu-621 last ${this.getAttribute('cold_panels')}">
-                                        <a href="cold_panels.html">ХОЛОДНЫЕ ПАНЕЛИ</a>
+                                        <a href="/cold_panels.html">ХОЛОДНЫЕ ПАНЕЛИ</a>
                                     </li>
                                     <li class="menu-621 last ${this.getAttribute('vent_units')}">
-                                        <a href="vent_units.html">ПРИТОЧНО-ВЫТЯЖНЫЕ ВЕНТИЛЯЦИОННЫЕ УСТАНОВКИ</a>
+                                        <a href="/vent_units.html">ПРИТОЧНО-ВЫТЯЖНЫЕ ВЕНТИЛЯЦИОННЫЕ УСТАНОВКИ</a>
                                     </li>
                                     <li class="menu-621 last ${this.getAttribute('automation')}">
-                                        <a href="automation.html">АВТОМАТИЗАЦИЯ УПРАВЛЕНИЯ
+                                        <a href="/automation.html">АВТОМАТИЗАЦИЯ УПРАВЛЕНИЯ
                                             ИНЖЕНЕРНЫМИ
                                             СИСТЕМАМИ ПАНЕЛИ</a>
                                     </li>

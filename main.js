@@ -15,14 +15,14 @@ const swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     cssMode: true,
     autoplay: {
-        delay: 4500,
+        delay: 3000,
         disableOnInteraction: true,
         pauseOnMouseEnter: false,
     },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-    }
+    },
 });
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -78,6 +78,32 @@ if (emailForm) {
     })
 }
 
+
+const contactForm = document.querySelector("#contactForm");
+
+
+const cemail = document.querySelector('#cemail')
+const cname = document.querySelector('#cname')
+const ctext = document.querySelector("#ctext");
+
+
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const url =
+            'https://wa.me/77479903858' + '?text=' +
+            'email:' + cemail.value + '%0a' +
+            'name:' + cname.value + '%0a' +
+            'Тема:' + ctext.value + '%0a%0a' +
+            'Здраствуйте, я из сайта ecosystem.kz';
+
+        window.open(url, '_blank').focus()
+
+        clearFieldsContact()
+    })
+}
+
 const clearFields = () => {
     title.value = '';
     comment.value = '';
@@ -85,3 +111,10 @@ const clearFields = () => {
     phone.value = '';
     email.value = '';
 }
+
+const clearFieldsContact = () => {
+    cemail.value = '';
+    cname.value = '';
+    ctext.value = '';
+}
+

@@ -17,7 +17,7 @@ class Header extends HTMLElement {
                             </div>
 
                             <div class="relative">
-                                <a href="about.html" class="mx-4 ${this.getAttribute('about')}">О нас</a>
+                                <a href="/about.html" class="mx-4 ${this.getAttribute('about')}">О нас</a>
                             </div>
 
                             <div class="relative cat">
@@ -74,7 +74,7 @@ class Header extends HTMLElement {
                             </div>
 
                             <div class="relative">
-                                <a href="contacts.html" class="mx-4 ${this.getAttribute('contacts')}">Контакты</a>
+                                <a href="/contacts.html" class="mx-4 ${this.getAttribute('contacts')}">Контакты</a>
                             </div>
                         </nav>
 
@@ -83,7 +83,7 @@ class Header extends HTMLElement {
                                 +7 (700) 779-86-41
                             </a>
 
-                            <a class="btn btn-pulse" href="${this.getAttribute('main') === 'active' ? '#form' : 'index.html#form'}">
+                            <a class="btn btn-pulse" href="${this.getAttribute('main') === 'active' ? '#form' : '/#form'}">
                                 ОТПРАВИТЬ ЗАПРОС
                             </a>
                         </div>
@@ -105,7 +105,7 @@ class Header extends HTMLElement {
                             </div>
 
                             <div class="relative">
-                                <a data-subcollapse href="about.html" class="mx-4 ${this.getAttribute('about')}">О нас</a>
+                                <a data-subcollapse href="/about.html" class="mx-4 ${this.getAttribute('about')}">О нас</a>
                             </div>
 
                             <div class="relative">
@@ -130,14 +130,14 @@ class Header extends HTMLElement {
                                 </div>
                             </div>
                             <div class="relative">
-                                <a href="contacts.html" class="mx-4 ${this.getAttribute('contacts')}">Контакты</a>
+                                <a href="/contacts.html" class="mx-4 ${this.getAttribute('contacts')}">Контакты</a>
                             </div>
                             <div class="relative mb-3">
                                 <div class="contacts items-center mx-4">
                                     <a href="tel:+77007798641" class="phone block">
                                         +7 (700) 779-86-41
                                     </a>
-                                    <a class="btn btn-pulse" href="${this.getAttribute('main') === 'active' ? '#form' : 'index.html#form'}">
+                                    <a class="btn btn-pulse" href="${this.getAttribute('main') === 'active' ? '#form' : '/#form'}">
                                         ОТПРАВИТЬ ЗАПРОС
                                     </a>
                                 </div>

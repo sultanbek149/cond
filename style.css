@@ -4927,3 +4927,277 @@ div[data-subcollapse] {
   padding: 5px 0;
   color: #214e86;
 }
+
+.page-contacts .section-page {
+  padding-bottom: 50px;
+}
+
+.page-contacts .page-title {
+  margin-bottom: 0px;
+}
+
+.info {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contacts .info a {
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 1px solid #ff0000;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.page-contacts .breadcrumb {
+  color: #fff !important;
+}
+
+.page-contacts .breadcrumb a {
+  font-weight: 700;
+  color: #fff !important;
+}
+
+.page-contacts .page-title {
+  color: #fff;
+}
+
+.page-contacts .wrapper {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 37 85 / var(--tw-bg-opacity));
+}
+
+.contacts .info a:hover {
+  transform: scale(1.05);
+}
+
+.contacts .tel {
+  font-size: 20px;
+}
+
+.contacts .email {
+  font-size: 23px;
+}
+
+.contacts .wp {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity)) !important;
+}
+
+@media (min-width: 768px) {
+  .info {
+    flex-wrap: wrap;
+  }
+
+  .contacts .tel {
+    font-size: 30px;
+  }
+
+  .contacts .email {
+    font-size: 33.8px;
+  }
+
+  .contacts .wp {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contacts .tel {
+    font-size: 52px;
+  }
+  .contacts .email {
+    font-size: 60px;
+  }
+
+  .info {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .contacts .wp {
+    gap: 1.5rem;
+  }
+  .contacts .wp i {
+    margin-bottom: 0.2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contacts .wp {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-contacts .section-page {
+    padding-bottom: 20px;
+  }
+}
+
+.punct {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.punct p {
+  color: #a9ff9e;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.contacts .line {
+  height: 1.5px;
+}
+
+.line-contact {
+  background-color: #fff;
+}
+
+.line {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 2.5rem;
+}
+
+.address-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 2.5rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .address-info {
+    align-items: stretch;
+    flex-direction: row;
+  }
+}
+
+.address-info .item {
+  border-radius: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.address-info .item a {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .address-info .item {
+    width: 100%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    padding: 2rem 2.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
+}
+
+.maps {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  .maps {
+    flex-direction: row;
+  }
+}
+
+.maps iframe {
+  border-radius: 1.5rem;
+  border-radius: 1.5rem;
+  min-height: 400px;
+  margin-bottom: 50px;
+  flex-basis: 55%;
+}
+
+.grow-2 {
+  flex-basis: 42%;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-\[42px\] {
+  font-size: 42px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.maps .form__group + .form__group {
+  margin-top: 20px;
+}
+
+.maps form .form__input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 18.5px 21px;
+  font-size: 15px;
+  border: 1px solid #000;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.py-\[21px\] {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.px-\[46px\] {
+  padding-left: 46px;
+  padding-right: 46px;
+}
+
+.bg-\[\#F00\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.rounded-\[14px\] {
+  border-radius: 14px;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.form__submit {
+  border: none;
+}
