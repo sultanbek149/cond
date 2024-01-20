@@ -3223,7 +3223,7 @@ p.c2 {
 
   .nav-mobile a.active,
   .nav-mobile div.active {
-    color: #0072bb;
+    color: #0072bb !important;
   }
 
   .footer {
@@ -3296,13 +3296,15 @@ p.c2 {
   .main-menu .catalog-categories a .content .title {
     font-size: 14px;
   }
-  .section-page {
+  .page-contacts .section-page {
     padding-bottom: 0px;
   }
 
   .page-about-us .section-page {
     margin-bottom: 50px;
   }
+
+
 
   .view-related-products .slick-next,
   .view-solutions-slider .slick-next,
