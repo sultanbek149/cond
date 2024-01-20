@@ -21,7 +21,7 @@ class Header extends HTMLElement {
                             </div>
 
                             <div class="relative cat">
-                                <a href="catalog.html" class="mx-4 ${this.getAttribute('catalog')}">Каталог
+                                <a href="/catalog.html" class="mx-4 ${this.getAttribute('catalog')}">Каталог
                                     <i class="fa-sharp fa-solid fa-caret-down"></i>
                                 </a>
                                 <div class="modal-fixed">
@@ -132,7 +132,7 @@ class Header extends HTMLElement {
                                 </div>
                             </div>
                             <div class="relative mb-3">
-                                <a href="contact.html" class="mx-4 ${this.getAttribute('contacts')}">Контакты</a>
+                                <a href="contacts.html" class="mx-4 ${this.getAttribute('contacts')}">Контакты</a>
                             </div>
                         </nav>
                     </div>
